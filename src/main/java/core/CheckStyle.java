@@ -3,7 +3,8 @@ package core;
 public class CheckStyle {
 
 	// LineLengthCheck
-	void MethodNameMethodNameMethodName() {
+	void MethodName() {
+	//void MethodNameMethodNameMethodName() {
 		System.out.println("Schoolmaster amnd The classroom is anagram? - true");
 	}
 

@@ -22,17 +22,17 @@ public class FindBugs {
 	static void abc() {	
 		int x = 2;
 		int y = 5;
-		double value1 =  x / y;
+		int value1 =  x / y;
 
 	}
 	
 	  public void foo() {
 		    int x = 3;
-		    x = x;
+		    //x = x;
 		  }
 	  public void foo2() {
 		    int x,y;
-		    x = x = 17;
+		    x=17;//x = x = 17;
 		  }
 
 	

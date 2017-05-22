@@ -30,7 +30,7 @@ public class CPD {
 	}
 	
 	
-	// JumbledIncrementer
+/*	// JumbledIncrementer
 	public class JumbledIncrementerRule1 {
 		public void foo() {
 			for (int i = 0; i < 10; i++) { // only references 'i'
@@ -49,6 +49,6 @@ public class CPD {
 				; // No Initialization or Update part, may as well be: while
 					// (true)
 		}
-	}
+	}*/
 	
 }
