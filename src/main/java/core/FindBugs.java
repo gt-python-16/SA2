@@ -8,7 +8,7 @@ public class FindBugs {
 	  
 	// FinalParametersCheck
 	@SuppressWarnings("null")
-	public static boolean A(String name) {
+	public static boolean afg(String name) {
 		boolean n = (Boolean) null;
 		return n;
 	}
