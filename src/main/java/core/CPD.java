@@ -11,11 +11,11 @@ public class CPD {
 			int value = 0;
 			int i = 0;
 			String s = null;
-			value += (s.replaceAll("\\s", "").toLowerCase().charAt(i));
+			value += s.replaceAll("\\s", "").toLowerCase().charAt(i);
 
 		}
 	}
-	
+/*	
 	// BigIntegerInstantiation
 	public void BigInteger() {
 		BigInteger bi1 = new BigInteger("1"); 	// reference BigInteger.ONE
@@ -28,7 +28,7 @@ public class CPD {
 		bi4 = new BigInteger("0"); 				// reference BigInteger.ZERO instead
 		System.out.println(bi1 + ", " + bi2 + ", " + bi3 + ", " + bi4);
 	}
-	
+*/	
 	
 /*	// JumbledIncrementer
 	public class JumbledIncrementerRule1 {

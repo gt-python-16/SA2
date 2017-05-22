@@ -19,21 +19,21 @@ public class FindBugs {
 		return "my-sec" + "ret-password";
 	}
 
-	static void abc() {	
+/*	static void abc() {	
 		int x = 2;
 		int y = 5;
 		int value1 =  x / y;
 
-	}
+	}*/
 	
-	  public void foo() {
+/*	  public void foo() {
 		    int x = 3;
 		    //x = x;
 		  }
 	  public void foo2() {
 		    int x,y;
 		    x=17;//x = x = 17;
-		  }
+		  }*/
 
 	
 	  public boolean myBad(){

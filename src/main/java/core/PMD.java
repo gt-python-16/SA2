@@ -42,16 +42,28 @@ public class PMD {
 	}
 
 	// ForLoopShouldBeWhileLoop
-
+	
 	public class Foo {
+		void bar() {
+		
+	       int l = 5;
+			while (l > 0) {
+				l--;
+				// No Initialization or Update part, may as well be: while
+					// (true)
+		    }
+	    }
+	}	
+
+/*	public class Foo {
 		void bar() {
 			for (; true;)
 				; // No Initialization or Update part, may as well be: while
 					// (true)
 		}
-	}
+	}*/
 
-	// ReturnFromFinallyBlock
+/*	// ReturnFromFinallyBlock
 	public class Bar {
 		public String foo() {
 			try {
@@ -62,7 +74,7 @@ public class PMD {
 				return "ok"; // return not recommended here
 			}
 		}
-	}
+	}*/
 
 	// UnconditionalIfStatement
 	public class Foo2 {
