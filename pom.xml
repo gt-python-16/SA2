@@ -82,6 +82,11 @@
                          <groupId>org.codehaus.mojo</groupId>
                          <artifactId>findbugs-maven-plugin</artifactId>
                          <version>3.0.4</version>
+                          <configuration>
+				              <xmlOutput>true</xmlOutput>
+				              <!--effort>Max</effort-->
+				              <failOnError>false</failOnError>
+                  		   </configuration>
                   </plugin>
                   <plugin>
 <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-checkstyle-plugin -->
