@@ -38,7 +38,7 @@
                                 <properties>
                                        <property>
                                              <name>testnames</name>
-                                             <value>Anagram</value>
+                                             <value>testNG</value>
                                        </property>
                                 </properties>
                          </configuration>
