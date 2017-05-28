@@ -1,7 +1,7 @@
 node {
 def mvnHome
 stage('Git') {
-git 'https://github.com/khatilov/jenkins.git'
+git 'https://github.com/gt-python-16/SA2.git'
 mvnHome = tool 'Maven 3.5.0'
 }
 stage('Maven') {
